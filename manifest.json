@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Save Image As Format",
+    "version": "1.0",
+    "description": "Convert and save web images to JPG, PNG, JPEG",
+    "permissions": [
+        "downloads",
+        "contextMenus",
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "icons/icon128.png"
+    },
+    "icons": {
+        "128": "icons/icon128.png"
+    }
+}
