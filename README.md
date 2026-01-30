@@ -1,100 +1,98 @@
 # 🖼️ Chrome Extension: Save Image As Format
 
-**Save Image As Format** là một tiện ích mở rộng (extension) cho
-**Google Chrome** do **mtrong100** phát triển.\
-Tiện ích cho phép người dùng **lưu hình ảnh trên web theo định dạng mong
-muốn** như **JPG, PNG, hoặc JPEG**, giúp việc tải ảnh trở nên linh hoạt
-và thuận tiện hơn.
+**Save Image As Format** is a **Google Chrome** extension developed by **TrongSigmaPro**.  
+This extension allows users to **save images from the web in their desired format** such as **JPG, PNG, or JPEG**, making image downloading more flexible and convenient.
 
 ---
 
 ## 📸 Screenshot
 
-![Screenshot](https://i.postimg.cc/mr81S9yW/Screenshot-2025-10-17-154924.png)
+![Screenshot](https://i.postimg.cc/wTPzLFtB/Screenshot-2026-01-30-135208.png)
 
-## 🚀 Tính Năng Chính
+## 🚀 Key Features
 
-- 🖱️ Thêm tùy chọn **"Save image as JPG/PNG/JPEG"** vào menu chuột
-  phải trên ảnh\
-- 💾 Lưu ảnh trực tiếp dưới định dạng bạn chọn mà không cần chỉnh sửa
-  thêm\
-- ⚙️ Hỗ trợ nhiều định dạng phổ biến:
-  - `JPG`\
-  - `PNG`\
+- 🖱️ Adds **"Save image as JPG/PNG/JPEG"** option to the right-click context menu on images
+- 💾 Save images directly in your chosen format without additional editing
+- ⚙️ Supports multiple popular formats:
+  - `JPG`
+  - `PNG`
   - `JPEG`
-- ⚡ Tốc độ xử lý nhanh, giao diện đơn giản, dễ dùng\
-- 🔒 Hoạt động hoàn toàn **offline**, không thu thập dữ liệu người
-  dùng
+- ⚡ Fast processing speed, simple and user-friendly interface
+- 🔒 Works completely **offline**, does not collect user data
 
 ---
 
-## 🧩 Công Nghệ Sử Dụng
+## 🧩 Technologies Used
 
 - **Manifest V3 (Chrome Extensions API)**
 - **JavaScript (ES6)**
 - **HTML / CSS**
-- **Canvas API** để xử lý và chuyển đổi định dạng ảnh
+- **Canvas API** for image processing and format conversion
 
 ---
 
-## 📦 Cài Đặt (Cách Thủ Công)
+## 📦 Installation (Manual Method)
 
-1.  Clone hoặc tải mã nguồn về:
+1. Clone or download the source code:
 
-    ```bash
-    git clone https://github.com/mtrong100/Extension-Save-Image-As-Format.git
-    ```
+   ```bash
+   git clone https://github.com/mtrong100/Extension-Save-Image-As-Format.git
+   ```
 
-2.  Mở Chrome và truy cập:
+2. Open Chrome and navigate to:
 
-        chrome://extensions/
+   ```
+   chrome://extensions/
+   ```
 
-3.  Bật **Developer mode** (Chế độ dành cho nhà phát triển)
+3. Enable **Developer mode**
 
-4.  Nhấn **Load unpacked** và chọn thư mục project vừa tải về
+4. Click **Load unpacked** and select the downloaded project folder
 
-5.  Extension sẽ xuất hiện trong danh sách tiện ích của bạn 🎉
-
----
-
-## 🧠 Cách Sử Dụng
-
-1.  Mở bất kỳ trang web nào có hình ảnh\
-2.  Nhấn chuột phải vào ảnh\
-3.  Chọn tùy chọn:
-    - `Save image as JPG`
-    - `Save image as PNG`
-    - `Save image as JPEG`
-4.  Ảnh sẽ được tải về với định dạng bạn chọn
+5. The extension will appear in your extensions list 🎉
 
 ---
 
-## 🛠️ Cấu Trúc Dự Án
+## 🧠 How to Use
 
-    Extension-Save-Image-As-Format/
-     ├── manifest.json        # Cấu hình chính của extension
-     ├── background.js        # Xử lý sự kiện và logic lưu ảnh
-     ├── icons/               # Biểu tượng extension
-     ├── popup.html           # Giao diện popup (nếu có)
-     ├── popup.js             # Xử lý sự kiện trong popup
-     └── README.md            # File hướng dẫn (bạn đang đọc)
-
----
-
-## 🧑‍💻 Tác Giả
-
-**Tác giả:** [mtrong100](https://github.com/mtrong100)\
-**Năm:** 2025\
-**Ngôn ngữ:** JavaScript\
-**Loại dự án:** Chrome Extension (Manifest V3)
+1. Open any webpage with images
+2. Right-click on an image
+3. Select one of the options:
+   - `Save image as JPG`
+   - `Save image as PNG`
+   - `Save image as JPEG`
+4. The image will be downloaded in your chosen format
 
 ---
 
-## 📄 Giấy Phép
+## 🛠️ Project Structure
 
-Phát hành theo giấy phép **MIT License**.\
-Bạn có thể sử dụng, chỉnh sửa và phân phối lại mã nguồn này tự do.
+```
+Extension-Save-Image-As-Format/
+ ├── manifest.json        # Main extension configuration
+ ├── background.js        # Event handling and image saving logic
+ ├── icons/               # Extension icons
+ ├── popup.html           # Popup interface (if applicable)
+ ├── popup.js             # Popup event handling
+ └── README.md            # Documentation file (you are reading this)
+```
 
 ---
 
-> 🧊 _Tiện ích nhỏ -- Tác dụng lớn. Lưu ảnh theo cách bạn muốn!_
+## 🧑‍💻 Author
+
+**Author:** [TrongSigmaPro](https://github.com/mtrong100)  
+**Year:** 2025  
+**Language:** JavaScript  
+**Project Type:** Chrome Extension (Manifest V3)
+
+---
+
+## 📄 License
+
+Released under the **MIT License**.  
+You are free to use, modify, and redistribute this source code.
+
+---
+
+> 🧊 _Small extension -- Big impact. Save images your way!_

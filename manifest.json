@@ -1,10 +1,9 @@
 {
     "manifest_version": 3,
     "name": "Save Image As Format",
-    "version": "1.0",
-    "description": "Convert and save web images to JPG, PNG, JPEG",
+    "version": "1.1.0",
+    "description": "Convert and save web images to JPG, PNG, or JPEG format with one click",
     "permissions": [
-        "downloads",
         "contextMenus",
         "scripting",
         "activeTab"
@@ -13,12 +12,27 @@
         "<all_urls>"
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.js",
+        "type": "module"
     },
     "action": {
-        "default_icon": "icons/icon128.png"
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png",
+            "512": "icons/icon512.png"
+        },
+        "default_title": "Save Image As Format"
     },
     "icons": {
-        "128": "icons/icon128.png"
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png",
+        "512": "icons/icon512.png"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
     }
 }
